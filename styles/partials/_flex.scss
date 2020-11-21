@@ -1,0 +1,21 @@
+.grid {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+
+    &__item{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        flex-grow: 1;
+        background-color: skyblue;
+        margin-right: 1%;
+        &:nth-child(9) {
+            margin-right: 0;
+        }
+
+    }
+}
