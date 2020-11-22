@@ -98,3 +98,26 @@
     }
     
 }
+
+.gridFour1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &__item {
+        background-color: skyblue;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        height: 26%;
+        flex: 0 32%;
+        margin-bottom: 2%;
+        height: 28vh;
+
+    }
+
+}

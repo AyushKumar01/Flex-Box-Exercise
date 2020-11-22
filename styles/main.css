@@ -161,4 +161,41 @@
 .gridThree2__item:nth-child(3n) {
   width: 100%;
 }
+
+.gridFour1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gridFour1__item {
+  background-color: skyblue;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  height: 26%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 32%;
+          flex: 0 32%;
+  margin-bottom: 2%;
+  height: 28vh;
+}
 /*# sourceMappingURL=main.css.map */
