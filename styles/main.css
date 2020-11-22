@@ -198,4 +198,50 @@
   margin-bottom: 2%;
   height: 28vh;
 }
+
+.gridFive1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 95vh;
+}
+
+.gridFive1__item {
+  background-color: skyblue;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border-radius: 5px;
+  padding: 2% 0;
+}
+
+.gridFive1__item:nth-child(2n +  3) {
+  height: 60%;
+}
+
+.gridFive1__item:nth-child(2) {
+  height: 40%;
+}
+
+.gridFive1__item-text {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 /*# sourceMappingURL=main.css.map */

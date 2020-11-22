@@ -121,3 +121,32 @@
     }
 
 }
+.gridFive1 {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 95vh;
+    &__item {
+        background-color: skyblue;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        border-radius: 5px;
+        padding: 2% 0;
+        &:nth-child(2n +  3) {
+            height: 60%;
+        }
+        &:nth-child(2) {
+            height: 40%;
+        }
+    }
+    &__item-text {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg)
+    }
+
+}
