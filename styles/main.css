@@ -244,4 +244,27 @@
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 23.5%;
+}
+
+.list__item:nth-child(4n) {
+  margin: 0;
+}
+
+.list__item-image {
+  width: 100%;
+  background-color: skyblue;
+  min-height: 28vh;
+}
 /*# sourceMappingURL=main.css.map */

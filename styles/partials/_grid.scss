@@ -1,0 +1,15 @@
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    &__item {
+        @include table1(4, 2%);
+    }
+    &__item-image {
+        width: 100%;
+        background-color: skyblue;
+        min-height: 28vh;// comment out on html change. 
+    }
+
+}
+
