@@ -1,3 +1,24 @@
 @import './partials/mixin';
 @import './partials/flex';
 @import './partials/grid';
+
+
+
+.next-link {
+    position: fixed;
+    bottom: 5px;
+    right: 7px;
+}
+.next-btn {
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    font-size: 1.25rem;
+    color: #FFF;
+    height: 2rem;
+    width: 4rem;
+}
+.pre-link {
+    position: fixed;
+    bottom: 5px;
+    left: 7px;
+}
